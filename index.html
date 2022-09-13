@@ -11,14 +11,44 @@
       }
 
       body {
-        width: 50%;
-        max-width: 800px;
-        min-width: 480px;
-        margin: 0 auto;
+        width: 95%;
+        margin: 20px 20px;
       }
-      
+
+      h1 {
+          font-size: 7rem;
+          margin: 0 auto;
+      }
+
+      p {
+        font-size: 2.3rem;
+      }
+
+      label {
+          font-size: 2.5rem;
+      }
+
+      .form {
+          /* display: flex; */
+          height: 50%;
+          margin: auto;
+      }
+
       .form input[type="number"] {
-        width: 200px;
+        width: 20%;
+        height: auto;
+        margin: auto;
+        font-size: 2.5rem;
+        margin: 10px;
+        padding: 10px;
+        border: thick double #32a1ce;
+    }
+
+      button, .guessSubmit {
+          width: 20%;
+          height: ;
+          margin: 10px;
+          padding: 10px;
       }
 
       .lastResult {
@@ -29,10 +59,10 @@
   </head>
 
   <body>
-    <h1>数当てゲーム</h1>
+    <h1>数字当てゲーム</h1>
 
-    <p>1 から 100 までの乱数を選択しました。
-        10 ターン以内に推測できるかどうかを確認してください。
+    <p>1 から 100 までの乱数を選択しました。<br>
+        10 ターン以内に推測できるかどうかを確認してください。<br>
         推測が高すぎるか低すぎるかをお知らせします。</p>
     
         <div class="form">
