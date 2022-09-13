@@ -12,7 +12,9 @@
 
       body {
         width: 95%;
+        height: 95%;
         margin: 20px 20px;
+        text-align: center;
       }
 
       h1 {
@@ -21,7 +23,9 @@
       }
 
       p {
-        font-size: 2.3rem;
+        font-size: 2.1rem;
+        padding: 1rem;
+
       }
 
       label {
@@ -44,11 +48,19 @@
         border: thick double #32a1ce;
     }
 
-      button, .guessSubmit {
+      .guessSubmit {
           width: 20%;
-          height: ;
+          height: 20%;
           margin: 10px;
           padding: 10px;
+          font-size: 2rem;
+      }
+
+      button {
+          width: 90%;
+          height: 20%;
+          font-size: 2rem;
+          margin: 0 auto;
       }
 
       .lastResult {
@@ -61,8 +73,8 @@
   <body>
     <h1>数字当てゲーム</h1>
 
-    <p>1 から 100 までの乱数を選択しました。<br>
-        10 ターン以内に推測できるかどうかを確認してください。<br>
+    <p>ランダムで1から100まで数字を設定しました。<br>
+        10ターン以内に数字を当ててください。<br>
         推測が高すぎるか低すぎるかをお知らせします。</p>
     
         <div class="form">
